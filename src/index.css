@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 50vh; /* Adjusted for mobile */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .MuiContainer-root {
+    padding: 8px !important; /* Override Material-UI padding */
+  }
+  .MuiButton-root {
+    font-size: 1rem; /* Larger touch targets */
+  }
+  .MuiGrid-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
