@@ -12,10 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #4caf50aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #4caf50aa);
 }
 
 @keyframes logo-spin {
@@ -35,8 +35,50 @@
 
 .card {
   padding: 2em;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .read-the-docs {
-  color: #888;
+  color: #b0b0b0;
+}
+
+/* Custom classes for the paddy disease app */
+.paddy-container {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.paddy-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  transition: background-color 0.3s !important;
+}
+
+.paddy-button:hover {
+  background-color: #388e3c !important;
+}
+
+.paddy-text-field {
+  margin-bottom: 16px !important;
+}
+
+.paddy-title {
+  color: #4caf50;
+  margin-bottom: 16px !important;
+}
+
+.paddy-card {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333333 !important;
+  margin-bottom: 16px !important;
+}
+
+.paddy-card-header {
+  background-color: #212121 !important;
+  color: #4caf50 !important;
 }
